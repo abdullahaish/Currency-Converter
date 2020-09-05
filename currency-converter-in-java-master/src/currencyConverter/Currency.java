@@ -60,6 +60,7 @@ public class Currency {
 				this.exchangeValues.put("AUD", 1.37);
 				this.exchangeValues.put("CHF", 0.91);
 				this.exchangeValues.put("NZD", 1.49);
+				this.exchangeValues.put("KD", 0.31);
 				break;
 			case "Euro":
 				this.exchangeValues.put("USD", 1.18);
@@ -72,6 +73,7 @@ public class Currency {
 				this.exchangeValues.put("AUD", 0.92);
 				this.exchangeValues.put("CHF", 0.61);
 				this.exchangeValues.put("NZD", 1.000);
+				this.exchangeValues.put("KD", 0.36);
 				break;
 			case "British Pound":
 				this.exchangeValues.put("USD", 1.33);
@@ -84,6 +86,7 @@ public class Currency {
 				this.exchangeValues.put("AUD", 1.63);
 				this.exchangeValues.put("CHF", 1.08);
 				this.exchangeValues.put("NZD", 1.77);
+				this.exchangeValues.put("KD", 0.41);
 				break;
 			case "Pakistan":
 				this.exchangeValues.put("USD", 0.0060);
@@ -96,6 +99,7 @@ public class Currency {
 				this.exchangeValues.put("AUD", 0.0083);
 				this.exchangeValues.put("CHF", 0.0055);
 				this.exchangeValues.put("NZD", 0.0090);
+				this.exchangeValues.put("KD", 0.0018);
 				break;
 			case "Chinese Yuan Renminbi":
 				this.exchangeValues.put("USD", 0.15);
@@ -108,6 +112,7 @@ public class Currency {
 				this.exchangeValues.put("AUD", 0.20);
 				this.exchangeValues.put("CHF", 0.13);
 				this.exchangeValues.put("NZD", 0.22);
+				this.exchangeValues.put("KD", 0.045);
 				break;
 			case "Japanese Yen":
 				this.exchangeValues.put("USD", 0.0094);
@@ -119,6 +124,7 @@ public class Currency {
 				this.exchangeValues.put("CAD", 0.012);
 				this.exchangeValues.put("AUD", 0.013);
 				this.exchangeValues.put("CHF", 0.0086);
+				this.exchangeValues.put("KD", 0.0029);
 				this.exchangeValues.put("NZD", 0.014);
 				break;
 			case "Canadian Dollar":
@@ -131,6 +137,7 @@ public class Currency {
 				this.exchangeValues.put("CAD", 1.000);
 				this.exchangeValues.put("AUD", 1.05);
 				this.exchangeValues.put("CHF", 0.70);
+				this.exchangeValues.put("KD", 0.23);
 				this.exchangeValues.put("NZD", 1.14);
 				break;
 			case "Australian Dollar":
@@ -143,6 +150,7 @@ public class Currency {
 				this.exchangeValues.put("CAD", 0.95);
 				this.exchangeValues.put("AUD", 1.000);
 				this.exchangeValues.put("CHF", 0.66);
+				this.exchangeValues.put("KD", 0.22);
 				this.exchangeValues.put("NZD", 1.09);
 				break;
 			case "Swiss Franc":
@@ -155,6 +163,7 @@ public class Currency {
 				this.exchangeValues.put("CAD", 1.43);
 				this.exchangeValues.put("AUD", 1.50);
 				this.exchangeValues.put("CHF", 1.000);
+				this.exchangeValues.put("KD", 0.34);
 				this.exchangeValues.put("NZD", 1.63);
 				break;
 			case "New Zealand":
@@ -167,7 +176,21 @@ public class Currency {
 				this.exchangeValues.put("CAD", 0.88);
 				this.exchangeValues.put("AUD", 0.92);
 				this.exchangeValues.put("CHF", 0.61);
+				this.exchangeValues.put("KD", 0.21);
 				this.exchangeValues.put("NZD", 1.000);
+				break;
+			case "Kuwaiti Dinar":
+				this.exchangeValues.put("USD", 3.27);
+				this.exchangeValues.put("EUR", 2.76);
+				this.exchangeValues.put("GBP", 2.46);
+				this.exchangeValues.put("PK", 542.18);
+				this.exchangeValues.put("CNY", 22.36);
+				this.exchangeValues.put("JPY", 347.10);
+				this.exchangeValues.put("CAD", 4.27);
+				this.exchangeValues.put("AUD", 4.49);
+				this.exchangeValues.put("CHF", 2.98);
+				this.exchangeValues.put("NZD", 4.87);
+				this.exchangeValues.put("KD", 1.000);
 				break;
 		}
 	}
@@ -182,6 +205,7 @@ public class Currency {
 		currencies.add( new Currency("Australian Dollar", "AUD") );
 		currencies.add( new Currency("New Zealand", "NZD") );
 		currencies.add( new Currency("Swiss Franc", "CHF") );
+		currencies.add( new Currency("Kuwaiti Dinar", "KD") );
 		currencies.add( new Currency("British Pound", "GBP") );
 		currencies.add( new Currency("Pakistan", "PK") );
 		currencies.add( new Currency("Chinese Yuan Renminbi", "CNY") );
